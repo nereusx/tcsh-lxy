@@ -1,7 +1,7 @@
 # tcsh-lxy
 tcsh tutorials and related subjects
 
-## online help, cheat card
+## online help, cheat sheet
 For 132x35 terminals
 
 [csh-help](https://github.com/nereusx/tcsh-lxy/blob/master/csh-help)

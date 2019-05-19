@@ -37,6 +37,16 @@ so i made this utility to replace it.
 
 5. Do not use 'here doc' inside blocks
 
+6. What out the exclamation mark, it represents the history commands and had priority even of single quotes
+
+7. Use new-line at the end of a single-quoted text or the file if its needed
+
+## Complains
+
+1. foreach-next for the command line
+
+2. `set x = ( *xyz )` had to return an empty variable not "no match" error!
+
 ---
 
 The tcsh original site

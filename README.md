@@ -8,5 +8,7 @@ For 132x35 terminals
 ## learn x in y minutes files
 [tcsh.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh.md)
 
-## BIG learn x in y minutes files, it didnt accepted
+## BIG learn x in y minutes files
+it didnt accepted
+
 [tcsh-big.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)

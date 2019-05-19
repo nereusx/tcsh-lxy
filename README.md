@@ -17,7 +17,7 @@ Well who needs so many details.
 
 [tcsh-big.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
 
-#W one-line foreach replacement
+## one-line foreach replacement
 foreach-end does not work in tcsh command line, only in scripts,
 so i made this utility to replace it.
 

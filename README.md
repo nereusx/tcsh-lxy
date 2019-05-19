@@ -33,6 +33,10 @@ so i made this utility to replace it.
 
 3. Use `set backslash_quote` before messup with quotes
 
+4. Inline IF with redirection does not works
+
+5. Do not use 'here doc' inside blocks
+
 ---
 
 The tcsh original site

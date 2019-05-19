@@ -51,3 +51,9 @@ so i made this utility to replace it.
 
 The tcsh original site
 http://tcsh.org
+
+My .tcshrc file
+https://github.com/nereusx/dotfiles/blob/master/.tcshrc
+
+My .login file
+https://github.com/nereusx/dotfiles/blob/master/.login

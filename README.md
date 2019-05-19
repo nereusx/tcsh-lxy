@@ -18,7 +18,8 @@ Well who needs so many details.
 [tcsh-big.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
 
 # one-line foreach replacement
-Foreach-end does not work in tcsh, so i made this utility to replace it
+foreach-end does not work in tcsh command line, only in scripts,
+so i made this utility to replace it.
 
 [dof](https://github.com/nereusx/unix-utils/tree/master/dof)
 

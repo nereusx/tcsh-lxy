@@ -7,11 +7,13 @@ For 132x35 terminals
 [csh-help](https://github.com/nereusx/tcsh-lxy/blob/master/csh-help)
 
 ## learn x in y minutes files
+I wrote this and it is included in [learnxinyminutes](https://learnxinyminutes.com/) project.
 
 [tcsh.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh.md)
 
 ## BIG learn x in y minutes files
-it didnt accepted
+Also I wrote this more complete version but it didnt accepted.
+Well who needs so many details.
 
 [tcsh-big.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
 

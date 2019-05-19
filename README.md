@@ -17,7 +17,7 @@ Well who needs so many details.
 
 [tcsh-big.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
 
-# one-line foreach replacement
+#W one-line foreach replacement
 foreach-end does not work in tcsh command line, only in scripts,
 so i made this utility to replace it.
 
@@ -25,6 +25,15 @@ so i made this utility to replace it.
 
 [dof-manual](https://github.com/nereusx/unix-utils/blob/master/dof/dof.pdf)
 
+## Secrets to write safe scripts
+
+1. Use spaces everywhere to separate things
+
+2. In arithmetic expressions use parenthesis and spaces
+
+3. Use `set backslash_quote` before messup with quotes
+
 ---
 
-(The tcsh original site)[http://tcsh.org]
+The tcsh original site
+http://tcsh.org

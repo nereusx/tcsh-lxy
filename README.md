@@ -1,5 +1,5 @@
 # tcsh-lxy
-tcsh tutorials
+tcsh tutorials and related subjects
 
 ## online help, cheat card
 For 132x35 terminals

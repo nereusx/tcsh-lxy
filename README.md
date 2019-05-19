@@ -41,6 +41,9 @@ so i made this utility to replace it.
 
 7. Use new-line at the end of a single-quoted text or the file if its needed
 
+8. If your script is big enough, respect your users and write it in a real language (C, Pascal, Fortran) or at least in a script
+lanuage (awk, basic, python, perl). Shells are not made to program but to communicate with OS.
+
 ## Complains
 
 1. foreach-next for the command line

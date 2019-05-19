@@ -1,0 +1,40 @@
+#!/bin/cat
+-- Redirection -------------------------------------------------------------------------------------------------------------------
+cmd > FILE : stdout to file   |  >> : append to file               |  cmd >& FILE  : stdout and stderr
+cmd < FILE : stdin from file  |  set x = $< : input from keyboard  |  cmd << label : document here 
+How to get stderr seperated:  (command > output-file) >& error-file
+
+-- Variables ---------------------------------------------------------------------------------------------------------------------
+$name or ${name}   : variable   |  @ variable : integer expression  |  ex: @ i = 1; @ i = $i + 1; @ i ++
+$?name or ${?name} : returns 1 if name is set; otherwise returns 0  |  $#name or ${#name} : number of items or words
+$name[selector] or ${name[selector]} : `selector' can be one integer or the range from-to. If `from' is omitted then its 1;
+if `to' is omitted then its `$#name'; the `*' means all.            |  $0, $n, $* is the same to $argv[0], $argv[n], $argv[*]
+$$ : the process number of the (parent) shell  |  $? : the $status  |  $# : same as $#argv  |  $_ : previous command line
+$! : the process number of the last background process started by this shell  |  $?0 : always 0 in interactive shells
+
+-- Operators ---------------------------------------------------------------------------------------------------------------------
+||  &&  |  ^  &  ==  !=  <=  >=  <  > <<  >>  +  -  *  /  %  !  ~  (  )
+=~  !~  like `!=' and `==' except that the right hand side is a file-pattern
+
+-- File inquiry operators --------------------------------------------------------------------------------------------------------
+ -r  read access | -w  write access  | -x  execute access  | -e  existence  | -o  ownership   | -z  zero size  | -s  non-zero size
+ -f  plain file  | -d  directory     | -l  symbolic link   | -b  block dev  | -c  char dev    | -p  named pipe | -S  socket file
+ -u  SUID is set | -g  SGID is set   | -k  sticky is set   | -t  file (digit) is an open file descriptor for a terminal device
+ -M  rets mtime  | -A  rets atime    | -M: rets mtime str  | -A: rets atime str               | -P permitions
+ -Z  size bytes  | -U  rets UID      | -U: rets username   | -G  rets GUD   | -G: rets group  | -Pmode returns P AND mode
+
+-- Variable modifiers: ${var}:m --------------------------------------------------------------------------------------------------
+h : the directory  |  t : the filenane    |  r : remove extension  |  e : the extension  |  $var:r:t : the basename
+u : uppercase the first lowercase letter  |  l : lowercase the first uppercase letter    |  p : print but do not execute it (hist)
+q : quote the substituted words, preventing further substitutions  |  x : like q, but break into words at white spaces
+g : apply the following modifier once to each word  |  a  : apply the following modifier as many times as possible to single word
+s/l/r/ : search for `l' and replace with `r', not regex; the `&' in the r is replaced by l |  & : Repeat the previous substitution
+
+-- Commands ----------------------------------------------------------------------------------------------------------------------
+# short format     | switch ( string ) | while ( expr )    | foreach var (...) | if ( { command } ) echo "command succeed"
+if ( expr ) ...    | case pattern:     |     ...           |     ...           | command1 && command2 || command3
+                   |     ...           | end               | end
+# long format      |     breaksw       |                   |
+if ( expr ) then   | default:          | repeat int cmd
+    ...            |     ...           | 
+endif              | endsw             | (break,continue,goto,exit as in C)

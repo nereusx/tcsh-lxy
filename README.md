@@ -58,7 +58,7 @@ lanuage (awk, basic, python, perl). Shells are not made to program but to commun
 
 * [The tcsh site](http://tcsh.org)
 * [The tcsh source code](https://github.com/tcsh-org/tcsh)
-* [https://www.grymoire.com/Unix/Csh.html](https://www.grymoire.com/Unix/Csh.html) by Bruce Barnett
+* [Csh - The C Shell](https://www.grymoire.com/Unix/Csh.html) by Bruce Barnett
 * [The C Shell tutorial](http://web.eng.hawaii.edu/Tutor/csh.html) by Ben Yoshino, University of Hawaii at Manoa
 * [The tcshrc project](https://sourceforge.net/projects/tcshrc/)
 * [The complete.tcsh file](https://github.com/tcsh-org/tcsh/blob/master/complete.tcsh)

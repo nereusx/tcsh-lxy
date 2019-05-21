@@ -33,7 +33,7 @@ so i made this utility to replace it.
 
 1. Use `set backslash_quote` before messup with quotes
 
-1. Inline IF with redirection does not works
+1. Inline IF with redirection does not works, it has more bugs, avoid to use it.
 
 1. `{}` blocks does not supports pipes or redirection
 

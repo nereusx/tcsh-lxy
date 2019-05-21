@@ -29,19 +29,21 @@ so i made this utility to replace it.
 
 1. Use spaces everywhere to separate things
 
-2. In arithmetic expressions use parenthesis and spaces
+1. In arithmetic expressions use parenthesis and spaces
 
-3. Use `set backslash_quote` before messup with quotes
+1. Use `set backslash_quote` before messup with quotes
 
-4. Inline IF with redirection does not works
+1. Inline IF with redirection does not works
 
-5. Do not use 'here doc' inside blocks
+1. `{}` blocks does not supports pipes and redirection
 
-6. Watch out the exclamation mark, it represents the history commands and had priority even of single quotes
+1. Do not use 'here doc' inside blocks
 
-7. Use new-line at the end of a single-quoted text or the file if its needed
+1. Watch out the exclamation mark, it represents the history commands and had priority even of single quotes
 
-8. If your script is big enough, respect your users and write it in a real language (C, Pascal, Fortran) or at least in a script
+1. Use new-line at the end of a single-quoted text or the file if its needed
+
+1. If your script is big enough, respect your users and write it in a real language (C, Pascal, Fortran) or at least in a script
 lanuage (awk, basic, python, perl). Shells are not made to program but to communicate with OS.
 
 ## Complains

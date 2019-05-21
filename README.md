@@ -35,7 +35,7 @@ so i made this utility to replace it.
 
 1. Inline IF with redirection does not works
 
-1. `{}` blocks does not supports pipes and redirection
+1. `{}` blocks does not supports pipes or redirection
 
 1. Do not use 'here doc' inside blocks
 

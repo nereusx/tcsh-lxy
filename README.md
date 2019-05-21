@@ -1,11 +1,6 @@
 # tcsh-lxy
 tcsh tutorials and related subjects
 
-## Online help, cheat sheet
-For 132x35 terminals
-
-[csh-help](https://github.com/nereusx/tcsh-lxy/blob/master/csh-help)
-
 ## Learn x in y minutes files
 I wrote this and it is included in [learnxinyminutes](https://learnxinyminutes.com/) project.
 
@@ -16,6 +11,11 @@ Also I wrote this more complete version but it didnt accepted.
 Well who needs so many details.
 
 [tcsh-big.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
+
+## Online help, cheat sheet
+For 132x35 terminals
+
+[csh-help](https://github.com/nereusx/tcsh-lxy/blob/master/csh-help)
 
 ## One-line foreach replacement
 foreach-end does not work in tcsh command line, only in scripts,
@@ -50,13 +50,15 @@ lanuage (awk, basic, python, perl). Shells are not made to program but to commun
 
 2. `set x = ( *xyz )` had to return an empty variable not "no match" error!
 
----
+## More stuff 
+* [My .tcshrc file](https://github.com/nereusx/dotfiles/blob/master/.tcshrc)
+* [My .login file](https://github.com/nereusx/dotfiles/blob/master/.login)
 
-The tcsh original site
-http://tcsh.org
 
-My .tcshrc file
-https://github.com/nereusx/dotfiles/blob/master/.tcshrc
+# TCSH Resources
 
-My .login file
-https://github.com/nereusx/dotfiles/blob/master/.login
+* [The tcsh site](http://tcsh.org)
+* [The tcsh source code](https://github.com/tcsh-org/tcsh)
+* [The tcshrc project](https://sourceforge.net/projects/tcshrc/)
+* [The complete.tcsh file](https://github.com/tcsh-org/tcsh/blob/master/complete.tcsh)
+

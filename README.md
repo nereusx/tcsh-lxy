@@ -26,7 +26,7 @@ Well who needs so many details:
 * One-line foreach replacement. foreach-end does not work in tcsh command line, only in scripts,
 so i made this utility to replace it: 
 [**dof**](https://github.com/nereusx/unix-utils/tree/master/dof),
-[dof-manual](https://github.com/nereusx/unix-utils/blob/master/dof/dof.pdf)
+[**dof-manual**](https://github.com/nereusx/unix-utils/blob/master/dof/dof.pdf)
 
 * My startup scripts: [**.tcshrc**](https://github.com/nereusx/dotfiles/blob/master/.tcshrc), [**.login**](https://github.com/nereusx/dotfiles/blob/master/.login)
 

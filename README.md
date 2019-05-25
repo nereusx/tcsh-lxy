@@ -53,7 +53,7 @@ lanuage (awk, basic, python, perl). Shells are not made to program but to commun
 
 ## Complains
 
-1. foreach-next for the command line
+1. foreach-end in the command line
 
 2. `set x = ( *xyz )` had to return an empty variable not "no match" error!
 

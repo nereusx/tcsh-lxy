@@ -6,7 +6,7 @@ tcsh tutorials and related stuff
   In this job tcsh is the most excellent.
 
 * **But it has bugs...**
-  I prefer a better shell, not a bugless Thompson's shit. (if [[a -eq b]]; then ... really?)...
+  I prefer a better shell, not a bugless Thompson's shit. (`if [[a -eq b]]; then` ... really?)...
   It is fun to write C-Shell scripts, are simple and elegant.
 
 ## My stuff

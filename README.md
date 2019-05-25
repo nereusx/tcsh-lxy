@@ -1,11 +1,13 @@
 # tcsh-lxy
 tcsh tutorials and related stuff
 
-* Why insist to tcsh instead of other shells
+* **Why insist to tcsh instead of other shells?**
+
 Well the shell is the program that allow user to communicate with the OS.
 In this job tcsh is the most excellent.
 
-* But it has bugs
+* **But it has bugs**
+
 I prefer a better shell, not a bugless Thompson shit.
 It is fun to write C-Shell scripts, are simple and elegant.
 

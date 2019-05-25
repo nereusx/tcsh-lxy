@@ -42,7 +42,7 @@ so i made this utility to replace it:
 
 1. `{}` blocks does not supports pipes or redirection
 
-1. Do not use 'here doc' inside blocks
+1. Do not use 'here doc' inside blocks. Just store them in a variable before use them.
 
 1. Watch out the exclamation mark, it represents the history commands and had priority even of single quotes
 

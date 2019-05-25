@@ -13,22 +13,22 @@ tcsh tutorials and related stuff
 
 * Learn x in y minutes files
 I wrote this and it is included in [learnxinyminutes](https://learnxinyminutes.com/) project: 
-[tcsh.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh.md)
+[**tcsh.md**](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh.md)
 
 * BIG learn x in y minutes files
 Also I wrote this more complete version but it didnt accepted.
 Well who needs so many details: 
-[tcsh-big.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
+[**tcsh-big.md**](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
 
 * Online help, cheat sheet for 132x35 terminals:
-[csh-help](https://github.com/nereusx/tcsh-lxy/blob/master/csh-help)
+[**csh-help**](https://github.com/nereusx/tcsh-lxy/blob/master/csh-help)
 
 * One-line foreach replacement. foreach-end does not work in tcsh command line, only in scripts,
 so i made this utility to replace it: 
-[dof](https://github.com/nereusx/unix-utils/tree/master/dof),
+[**dof**](https://github.com/nereusx/unix-utils/tree/master/dof),
 [dof-manual](https://github.com/nereusx/unix-utils/blob/master/dof/dof.pdf)
 
-* My startup scripts [.tcshrc](https://github.com/nereusx/dotfiles/blob/master/.tcshrc), [.login](https://github.com/nereusx/dotfiles/blob/master/.login)
+* My startup scripts: [**.tcshrc**](https://github.com/nereusx/dotfiles/blob/master/.tcshrc), [**.login**](https://github.com/nereusx/dotfiles/blob/master/.login)
 
 ## Secrets to write safe scripts
 

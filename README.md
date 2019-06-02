@@ -1,29 +1,34 @@
 # tcsh-lxy
-tcsh tutorials and related subjects
+tcsh tutorials and related stuff
 
-## Learn x in y minutes files
-I wrote this and it is included in [learnxinyminutes](https://learnxinyminutes.com/) project.
+* **Why insist to tcsh instead of other shells?**
+  Well the shell is the program that allow user to communicate with the OS.
+  In this job tcsh is the most excellent.
 
-[tcsh.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh.md)
+* **But it has bugs...**
+  I prefer a better shell, not a bugless Thompson's shit. (`if [[a -eq b]]; then` ... really?)...
+  It is fun to write C-Shell scripts, are simple and elegant.
 
-## BIG learn x in y minutes files
+## My stuff
+
+* Learn x in y minutes files
+I wrote this and it is included in [learnxinyminutes](https://learnxinyminutes.com/) project: 
+[**tcsh.md**](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh.md)
+
+* BIG learn x in y minutes files
 Also I wrote this more complete version but it didnt accepted.
-Well who needs so many details.
+Well who needs so many details: 
+[**tcsh-big.md**](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
 
-[tcsh-big.md](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
+* Online help, cheat sheet for 132x35 terminals:
+[**csh-help**](https://github.com/nereusx/tcsh-lxy/blob/master/csh-help)
 
-## Online help, cheat sheet
-For 132x35 terminals
+* One-line foreach replacement. foreach-end does not work in tcsh command line, only in scripts,
+so i made this utility to replace it: 
+[**dof**](https://github.com/nereusx/unix-utils/tree/master/dof),
+[**dof-manual**](https://github.com/nereusx/unix-utils/blob/master/dof/dof.pdf)
 
-[csh-help](https://github.com/nereusx/tcsh-lxy/blob/master/csh-help)
-
-## One-line foreach replacement
-foreach-end does not work in tcsh command line, only in scripts,
-so i made this utility to replace it.
-
-[dof](https://github.com/nereusx/unix-utils/tree/master/dof)
-
-[dof-manual](https://github.com/nereusx/unix-utils/blob/master/dof/dof.pdf)
+* My startup scripts: [**.tcshrc**](https://github.com/nereusx/dotfiles/blob/master/.tcshrc), [**.login**](https://github.com/nereusx/dotfiles/blob/master/.login)
 
 ## Secrets to write safe scripts
 
@@ -37,7 +42,7 @@ so i made this utility to replace it.
 
 1. `{}` blocks does not supports pipes or redirection
 
-1. Do not use 'here doc' inside blocks
+1. Do not use 'here doc' inside blocks. Just store them in a variable before use them.
 
 1. Watch out the exclamation mark, it represents the history commands and had priority even of single quotes
 
@@ -48,20 +53,24 @@ lanuage (awk, basic, python, perl). Shells are not made to program but to commun
 
 ## Complains
 
-1. foreach-next for the command line
+1. foreach-end in the command line
 
 2. `set x = ( *xyz )` had to return an empty variable not "no match" error!
 
-## More stuff 
-* [My .tcshrc file](https://github.com/nereusx/dotfiles/blob/master/.tcshrc)
-* [My .login file](https://github.com/nereusx/dotfiles/blob/master/.login)
-
 # TCSH Resources
 
+### must read
+* [An Introduction to the C shell](https://docs.freebsd.org/44doc/usd/04.csh/paper.pdf) by William Joy
+* [C-shell Cookbook](http://starlink.eao.hawaii.edu/devdocs/sc4.pdf) by Malcolm J. Currie
+
+### other
 * [The tcsh site](http://tcsh.org)
 * [The tcsh source code](https://github.com/tcsh-org/tcsh)
 * [Csh - The C Shell](https://www.grymoire.com/Unix/Csh.html) by Bruce Barnett
 * [The C Shell tutorial](http://web.eng.hawaii.edu/Tutor/csh.html) by Ben Yoshino, University of Hawaii at Manoa
 * [The tcshrc project](https://sourceforge.net/projects/tcshrc/)
 * [The complete.tcsh file](https://github.com/tcsh-org/tcsh/blob/master/complete.tcsh)
+
+* [CSH cheet sheet](http://www.geol.lsu.edu/jlorenzo/ReflectSeismol/labs/unix-cheatsheet.pdf)
+* [The C-Shell](https://www2.cs.duke.edu/csl/docs/csh.html)
 

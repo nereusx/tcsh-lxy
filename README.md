@@ -46,7 +46,7 @@ so i made this utility to replace it:
 
 1. Watch out the exclamation mark, it represents the history commands and had priority even of single quotes
 
-1. Use new-line at the end of a single-quoted text or the file if its needed
+1. Use new-line at the end of a single-quoted text in aliases with ENTER (for example after endif); or in file if its needed
 
 1. If your script is big enough, respect your users and write it in a real language (C, Pascal, Fortran) or at least in a script
 lanuage (awk, basic, python, perl). Shells are not made to program but to communicate with OS.

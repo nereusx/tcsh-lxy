@@ -46,14 +46,14 @@ Now, you need an alias to do the trick
 ```
 alias go-back 'set dir=`dirs | $PICKER | cut -f1`; [ -n "$dir" ] && cd =$dir'
 ```
-Ready, you can try it by typing go-back.
+Ready, you can try it by typing `go-back`.
 
 The last step is to bind it to `PGDN`
 ```
 bindkey -c '^[[6~' go-back
 ```
 
-And yes, I have already did it for history... you can find my `.tcshrc` in first page.
+And yes, I have already did it for history... You can find it in my [.tcshrc](https://github.com/nereusx/dotfiles/blob/master/.tcshrc).
 
 ## display/insert escape key codes
 
@@ -61,4 +61,8 @@ Find where is binded the `quoted-insert`.
 ```
 bindkey | grep quoted-insert
 ```
-This internal function allows you to type a key and print out the escape key codes.
+This internal function allows you to type a key and print out the escape key codes. You ll need it to setup the keys with bindkey correctly.
+
+## Alt+p the most usefull key
+
+This completes your command by searching backwards in history. Lets say, you want to retype the last copy that you did; type cp and press `Alt+p`.

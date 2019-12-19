@@ -17,6 +17,9 @@ alias cd 'pushd'
 # nice dirs, dirs displays the directories in the dirstack
 alias dirs 'dirs -v'
 ```
+(https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pushd.png)
+
+Typing `cd =N` we can jump to Nth directory of `dirstack`.
 
 ## bindkey to any alias
 

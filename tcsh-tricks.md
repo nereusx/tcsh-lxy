@@ -60,5 +60,5 @@ And yes, I have already did it for history... you can find my `.tcshrc` in first
 Find where is binded the `quoted-insert`.
 ```
 bindkey | grep quoted-insert
-``
+```
 This internal function allows you to type a key and print out the escape key codes.

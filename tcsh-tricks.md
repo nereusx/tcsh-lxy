@@ -1,12 +1,12 @@
 # tcsh tips & tricks
 
 
-### Alt+p the most usefull key
+## Alt+p the most usefull key
 
 This completes your command by searching backwards in history. Lets say, you want to retype the last copy that you did; type cp and press `Alt+p`.
 
 
-### display/insert escape key codes
+## display/insert escape key codes
 
 Find where is binded the `quoted-insert`.
 ```
@@ -15,7 +15,7 @@ bindkey | grep quoted-insert
 This internal function allows you to type a key and print out the escape key codes. You ll need it to setup the keys with bindkey correctly.
 
 
-### remember previous directories automagically
+## remember previous directories automagically
 
 The tcsh has the ability to remember any directory that you visited.
 You just have to configure the `dirstack`.
@@ -37,7 +37,7 @@ alias dirs 'dirs -v'
 Typing `cd =N` you can change to Nth directory of `dirstack`.
 
 
-### bindkey to any alias
+## bindkey to any alias
 
 ```
 alias mycmd 'echo "Hello there"'
@@ -47,7 +47,7 @@ bindkey -c '^O' mycmd
 ```
 
 
-### using menu for dirstack
+## using menu for dirstack
 
 You can bind an alias to `PGDN` key; so when we press `PGDN` to get a menu with the previous directories. Using `arrows` and `ENTER` you can change to selected directory, or `ESC` to close the menu.
 

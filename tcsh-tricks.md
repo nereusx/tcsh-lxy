@@ -19,7 +19,7 @@ alias dirs 'dirs -v'
 ```
 ![pushd example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pushd.png "PUSHD Example")
 
-Typing `cd =N` we can jump to Nth directory of `dirstack`.
+Typing `cd =N` you can change to Nth directory of `dirstack`.
 
 ## bindkey to any alias
 

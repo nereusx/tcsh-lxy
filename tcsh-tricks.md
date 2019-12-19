@@ -11,7 +11,7 @@ set pushdsilent
 set pushdtohome
 
 # use pushd instead of cd
-alias cd   'pushd'
+alias cd 'pushd'
 ```
 
 ## bindkey to any alias
@@ -20,6 +20,5 @@ alias cd   'pushd'
 alias mycmd 'echo "Hello there"'
 
 # run mycmd when you press Ctrl+O
-bindkey -c '^O' myalias
+bindkey -c '^O' mycmd
 ```
-

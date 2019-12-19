@@ -29,3 +29,26 @@ alias mycmd 'echo "Hello there"'
 # run mycmd when you press Ctrl+O
 bindkey -c '^O' mycmd
 ```
+
+## using menu for dirstack
+
+You can bind an alias to `PGDN` key; so when we press `PGDN` to get a menu with the previous directories. Using `arrows` and `ENTER` you can change to selected directory, or `ESC` to close the menu.
+
+![pgdn example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pgdn.png "dirs tui example")
+
+First, select and install a menu utility. There are plenty, fzy, pick, iselect, etc. I prefer `fzy`.
+
+Let's to store that somewhere in your `~/.tcshrc`
+```
+setenv PICKER fzy
+```
+Now, you need an alias to do the trick
+```
+alias go-back 'set dir=`dirs | $PICKER | cut -f1`; [ -n "$dir" ] && cd =$dir'
+```
+Ready, you can try it by typing go-back.
+
+The last step is to bind it to `PGDN`
+```
+bindkey -c '^[[6~' go-back
+```

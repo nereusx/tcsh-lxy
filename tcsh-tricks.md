@@ -6,11 +6,12 @@ The tcsh has the ability to remember any directory that you visited.
 You just have to configure the `dirstack`.
 
 ```
-# just a few nice settings for the dirstack
+# quietly add directories to dirstack
 set pushdsilent
+# without parameters go to home directory
 set pushdtohome
 
-# use pushd instead of cd
+# use pushd instead of cd, this makes the tricks
 alias cd 'pushd'
 
 # nice dirs, dirs displays the directories in the dirstack

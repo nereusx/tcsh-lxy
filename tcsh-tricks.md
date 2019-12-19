@@ -14,7 +14,7 @@ set pushdtohome
 alias cd 'pushd'
 
 # nice dirs, dirs displays the directories in the dirstack
-alias dirs 'dirs -b'
+alias dirs 'dirs -v'
 ```
 
 ## bindkey to any alias

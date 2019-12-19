@@ -20,6 +20,9 @@ Also I wrote this more complete version but it didnt accepted.
 Well who needs so many details: 
 [**tcsh-big.md**](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
 
+* TCSH tips & tricks
+[**tcsh-tricks.md**](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-tricks.md)
+
 * Online help, cheat sheet for 132x35 terminals:
 [**csh-help**](https://github.com/nereusx/tcsh-lxy/blob/master/csh-help)
 
@@ -28,7 +31,7 @@ so i made this utility to replace it:
 [**dof**](https://github.com/nereusx/unix-utils/tree/master/dof),
 [**dof-manual**](https://github.com/nereusx/unix-utils/blob/master/dof/dof.pdf)
 
-* My startup scripts: [**.tcshrc**](https://github.com/nereusx/dotfiles/blob/master/.tcshrc), [**.login**](https://github.com/nereusx/dotfiles/blob/master/.login)
+* My startup script: [**.tcshrc**](https://github.com/nereusx/dotfiles/blob/master/.tcshrc)
 
 ## Secrets to write safe scripts
 

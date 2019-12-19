@@ -1,5 +1,17 @@
 # tcsh tips & tricks
 
+## Alt+p the most usefull key
+
+This completes your command by searching backwards in history. Lets say, you want to retype the last copy that you did; type cp and press `Alt+p`.
+
+## display/insert escape key codes
+
+Find where is binded the `quoted-insert`.
+```
+bindkey | grep quoted-insert
+```
+This internal function allows you to type a key and print out the escape key codes. You ll need it to setup the keys with bindkey correctly.
+
 ## remember previous directories automagically
 
 The tcsh has the ability to remember any directory that you visited.
@@ -55,14 +67,3 @@ bindkey -c '^[[6~' go-back
 
 And yes, I have already did it for history... You can find it in my [.tcshrc](https://github.com/nereusx/dotfiles/blob/master/.tcshrc).
 
-## display/insert escape key codes
-
-Find where is binded the `quoted-insert`.
-```
-bindkey | grep quoted-insert
-```
-This internal function allows you to type a key and print out the escape key codes. You ll need it to setup the keys with bindkey correctly.
-
-## Alt+p the most usefull key
-
-This completes your command by searching backwards in history. Lets say, you want to retype the last copy that you did; type cp and press `Alt+p`.

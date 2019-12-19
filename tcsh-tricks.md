@@ -52,3 +52,13 @@ The last step is to bind it to `PGDN`
 ```
 bindkey -c '^[[6~' go-back
 ```
+
+And yes, I have already did it for history... you can find my `.tcshrc` in first page.
+
+## display/insert escape key codes
+
+Find where is binded the `quoted-insert`.
+```
+bindkey | grep quoted-insert
+``
+This internal function allows you to type a key and print out the escape key codes.

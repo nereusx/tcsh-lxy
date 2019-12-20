@@ -41,6 +41,17 @@ echo $EXCL
 
 See [Writing C-shell scripts](https://www.dur.ac.uk/resources/its/info/guides/3Cshells.pdf)
 
+## floating point calculations
+The tcsh uses only integer expressions, so, this is how to use bc or awk to do complex calculations thru the shell.
+
+```
+# using bc
+alias bcalc 'echo "\!*" | bc -l'
+
+# using awk
+alias acalc 'awk "BEGIN{ print \!* }"'
+```
+
 ## display/insert escape key codes
 
 Find where is binded the `quoted-insert`.

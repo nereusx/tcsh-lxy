@@ -86,9 +86,10 @@ alias cd 'pushd'
 # nice dirs, dirs displays the directories in the dirstack
 alias dirs 'dirs -v'
 ```
-![pushd example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pushd.png "PUSHD Example")
 
 Typing `cd =N` you can change to Nth directory of `dirstack`.
+
+![pushd example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pushd.png "PUSHD Example")
 
 
 ## using menu for dirstack

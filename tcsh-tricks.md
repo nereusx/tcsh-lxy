@@ -39,7 +39,7 @@ echo $EXCL
 | $filename:e   | tex                                      |
 | $filename:t:r | first                                    |
 
-[Writing C-shell scripts](https://www.dur.ac.uk/resources/its/info/guides/3Cshells.pdf)
+See [Writing C-shell scripts](https://www.dur.ac.uk/resources/its/info/guides/3Cshells.pdf)
 
 ## display/insert escape key codes
 

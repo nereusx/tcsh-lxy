@@ -1,6 +1,5 @@
 # tcsh tips & tricks
 
-
 ## Alt+p the most usefull key
 
 This completes your command by searching backwards in history. Lets say, you want to retype the last copy that you did; type `cp` and press `Alt+p`.
@@ -20,6 +19,14 @@ set autolist
 ## automatic update path
 ```
 set autorehash
+```
+
+## display exclamation mark
+Often it is very annoying that '!' has priority of single quotes and any other symbol. With this wat you can print it or add it to alias, prompt, etc without problems.
+
+```
+set EXCL="\041"
+echo $EXCL
 ```
 
 ## display/insert escape key codes

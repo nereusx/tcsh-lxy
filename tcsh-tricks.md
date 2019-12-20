@@ -22,7 +22,7 @@ set autorehash
 ```
 
 ## display exclamation mark
-Often it is very annoying that '!' has priority of single quotes and any other symbol. With this wat you can print it or add it to alias, prompt, etc without problems.
+Often it is very annoying that '!' has priority of single quotes and any other symbol. With this you can print it or add it to alias, prompt, etc without problems.
 
 ```
 set EXCL="\041"

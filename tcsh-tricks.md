@@ -12,6 +12,16 @@ set nobeep
 unalias beepcmd
 ```
 
+## improve tab completion
+```
+set autolist
+```
+
+## automatic update path
+```
+set autorehash
+```
+
 ## display/insert escape key codes
 
 Find where is binded the `quoted-insert`.

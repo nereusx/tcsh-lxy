@@ -89,7 +89,7 @@ alias dirs 'dirs -v'
 
 Typing `cd =N` you can change to Nth directory of `dirstack`.
 
-![pushd example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pushd.png =743x)
+![pushd example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pushd.png | width=743)
 
 
 ## using menu for dirstack

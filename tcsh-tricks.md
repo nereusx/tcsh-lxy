@@ -89,14 +89,14 @@ alias dirs 'dirs -v'
 
 Typing `cd =N` you can change to Nth directory of `dirstack`.
 
-![pushd example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pushd.png "PUSHD Example" | width=743)
+![pushd example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pushd.png =743x)
 
 
 ## using menu for dirstack
 
 You can bind an alias to `PGDN` key; so when we press `PGDN` to get a menu with the previous directories. Using `arrows` and `ENTER` you can change to selected directory, or `ESC` to close the menu.
 
-![pgdn example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pgdn.png "dirs tui example" | width=743)
+![pgdn example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pgdn.png =743x)
 
 First, select and install a menu utility. There are plenty, fzy, pick, iselect, etc. I prefer `fzy`.
 

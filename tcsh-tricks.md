@@ -5,6 +5,12 @@
 
 This completes your command by searching backwards in history. Lets say, you want to retype the last copy that you did; type cp and press `Alt+p`.
 
+## disable beep
+
+```
+set nobeep
+unalias beepcmd
+```
 
 ## display/insert escape key codes
 

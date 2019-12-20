@@ -28,6 +28,18 @@ Often it is very annoying that '!' has priority of single quotes and any other s
 set EXCL="\041"
 echo $EXCL
 ```
+## filename modifiers
+
+| String        | Result                                   |
+|---------------|------------------------------------------|
+| $filename     | /home/hudson/pg/dxy3abc/papers/first.tex |
+| $filename:r   | /home/hudson/pg/dxy3abc/papers/first     |
+| $filename:h   | /home/hudson/pg/dxy3abc/papers           |
+| $filename:t   | first.tex                                |
+| $filename:e   | tex                                      |
+| $filename:t:r | first                                    |
+
+[Writing C-shell scripts](https://www.dur.ac.uk/resources/its/info/guides/3Cshells.pdf)
 
 ## display/insert escape key codes
 

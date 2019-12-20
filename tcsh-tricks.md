@@ -20,6 +20,14 @@ bindkey | grep quoted-insert
 ```
 This internal function allows you to type a key and print out the escape key codes. You ll need it to setup the keys with bindkey correctly.
 
+## bindkey to any alias
+
+```
+alias mycmd 'echo "Hello there"'
+
+# run mycmd when you press Ctrl+O
+bindkey -c '^O' mycmd
+```
 
 ## remember previous directories automagically
 
@@ -41,16 +49,6 @@ alias dirs 'dirs -v'
 ![pushd example](https://github.com/nereusx/tcsh-lxy/blob/master/pics/tt-pushd.png "PUSHD Example")
 
 Typing `cd =N` you can change to Nth directory of `dirstack`.
-
-
-## bindkey to any alias
-
-```
-alias mycmd 'echo "Hello there"'
-
-# run mycmd when you press Ctrl+O
-bindkey -c '^O' mycmd
-```
 
 
 ## using menu for dirstack

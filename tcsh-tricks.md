@@ -3,7 +3,7 @@
 
 ## Alt+p the most usefull key
 
-This completes your command by searching backwards in history. Lets say, you want to retype the last copy that you did; type cp and press `Alt+p`.
+This completes your command by searching backwards in history. Lets say, you want to retype the last copy that you did; type `cp` and press `Alt+p`.
 
 ## disable beep
 

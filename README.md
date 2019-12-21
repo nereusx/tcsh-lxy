@@ -54,6 +54,10 @@ so i made this utility to replace it:
 1. If your script is big enough, respect your users and write it in a real language (C, Pascal, Fortran) or at least in a script
 lanuage (awk, basic, python, perl). Shells are not made to program but to communicate with OS.
 
+## Fun
+
+* [CSh-things] http://christopoulos.users.sourceforge.net/doc/cshthings.txt
+
 ## Complains
 
 1. foreach-end in the command line

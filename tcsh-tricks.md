@@ -52,6 +52,12 @@ alias bcalc 'echo "\!*" | bc -l'
 alias acalc 'awk "BEGIN{ print \!* }"'
 ```
 
+## separate standard input and error
+
+```
+(command > output-file.txt) >& error-file.txt
+```
+
 ## display/insert escape key codes
 
 Find where is binded the `quoted-insert`.

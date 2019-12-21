@@ -20,7 +20,7 @@ Also I wrote this more complete version but it didnt accepted.
 Well who needs so many details: 
 [**tcsh-big.md**](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-big.md)
 
-* TCSH tips & tricks
+* TCSH tips & tricks:
 [**tcsh-tricks.md**](https://github.com/nereusx/tcsh-lxy/blob/master/tcsh-tricks.md)
 
 * Online help, cheat sheet for 132x35 terminals:

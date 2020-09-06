@@ -1,0 +1,7 @@
+# TCSH mondern subsystem
+
+## enable/disable a module
+
+cd ~/.tcsh/tcshrc.d
+chmod +r file.csh
+chmod -r file.csh
